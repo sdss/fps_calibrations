@@ -1,0 +1,19 @@
+# column descriptions
+# -----------------------
+# direction: direction to convert to, "focal" or "field"
+# site: APO or LCO
+# waveCat: Boss, Apogee, or GFA (corresponding to 0.54, 1.66, or 0.6231 microns)
+# R: radius of curvature for best fit sphere (mm)
+# b: z position of best fit sphere center (mm) in focal plane coordinates
+# c0: 1st order coeff
+# c1: 3rd order coeff
+# c2: 5th order coeff
+# c3: 7th order coeff
+# c4: 9th order coeff
+direction,site,waveCat,R,b,c0,c1,c2,c3,c4
+focal,LCO,Boss,9938,8945,1.89824e+00,1.31773e-02,1.04445e-04,5.77341e-05,0.00000e+00
+focal,LCO,Apogee,8905,7912,2.11890e+00,1.40826e-02,1.27996e-04,6.99967e-05,0.00000e+00
+focal,LCO,GFA,9743,8751,1.93618e+00,1.33536e-02,9.17031e-05,6.58945e-05,0.00000e+00
+field,LCO,Boss,9938,8945,5.26803e-01,-1.01471e-03,3.47109e-06,-2.98113e-07,0.00000e+00
+field,LCO,Apogee,8905,7912,4.71943e-01,-6.98482e-04,1.58969e-06,-1.47239e-07,0.00000e+00
+field,LCO,GFA,9743,8751,5.16480e-01,-9.50007e-04,3.34034e-06,-2.93032e-07,0.00000e+00
