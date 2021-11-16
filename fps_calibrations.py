@@ -10,8 +10,7 @@ import os
 import subprocess
 
 
-# Modify this version only before tagging.
-__version__ = "0.0.0"
+__version__ = "APO.2021.11.14"
 
 
 def get_version():
@@ -43,4 +42,16 @@ def get_version():
     # This is an untagged version in an active Git repo. Return
     # the current version plus the hash.
 
-    return __version__ + "+" + head.stdout.decode().strip()
+    # First get the latest tag.
+    latest_tag_cmd = subprocess.run(
+        "git describe --tags --abbrev=0",
+        shell=True,
+        cwd=cwd,
+        capture_output=True,
+    )
+    if latest_tag_cmd.returncode == 0:
+        latest_tag = latest_tag_cmd.stdout.decode().strip()
+    else:
+        latest_tag = "unknown"
+
+    return latest_tag + "+" + head.stdout.decode().strip()
