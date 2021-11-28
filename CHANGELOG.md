@@ -1,5 +1,9 @@
 # Changelog
 
+## APO.2021.11.28
+* Updated APO positionerTable based on safe move calibration in plug lab
+* Updated APO fiducialCoords based on measured positions of spots on camera, not including outliers in fits.  GFA fiducials added.
+
 ## APO.2021.11.24
 
 * Updated APO positionerTable for robots swapped out after OSU lab testing.
