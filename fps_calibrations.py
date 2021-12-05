@@ -10,7 +10,7 @@ import os
 import subprocess
 
 
-__version__ = "APO.2021.12.01"
+__version__ = "APO.2021.12.04"
 
 
 def get_version():
