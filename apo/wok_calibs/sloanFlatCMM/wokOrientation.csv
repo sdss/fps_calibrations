@@ -5,4 +5,4 @@
 # wok is aligned perfectly with the rotator XY position and XY tilts should be
 # zero.  Tilt about x is applied before tilt about y.
 site,x,y,z,xTilt,yTilt
-APO,0,0,-919.4791,0,0
+APO,0.3689,0.1671,-919.4791,0,0
