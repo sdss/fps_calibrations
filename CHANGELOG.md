@@ -1,5 +1,11 @@
 # Changelog
 
+## APO.FIRST.LIGHT.2021.12.09
+* Add gfaCoordinates table
+* Add measured Apogee and Boss locations in fiberPositionerTable based on pluglab data
+* Add hack xy offset to Boss fiber locations to guess at obvious descrepancy between apogee and boss measured locations.
+* Roughly 10% of fibers got hits with this config and rough "janky guiding"
+
 ## APO.2021.12.01
 * Updated APO positionerTable based on danger move calibration in plug lab
 
