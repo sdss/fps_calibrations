@@ -1,5 +1,9 @@
 # Changelog
 
+## APO.2021.12.25
+* Fixed calculation of fiber positions
+* Used for initial dither observations
+
 ## APO.FIRST.LIGHT.2021.12.09
 * Add gfaCoordinates table
 * Add measured Apogee and Boss locations in fiberPositionerTable based on pluglab data
