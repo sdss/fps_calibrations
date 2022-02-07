@@ -1,6 +1,6 @@
 # Changelog
 
-## APO.2022.01.25-alpha.1
+## APO.2022.02.07
 * Update boss fiber positions in positionerTable, fibers with LTC metrology and apogee measurements are used to solve for boss fiber microscopy locaitons, boss fibers without LTC measurements are adjusted by a linear fit based on LTC metrology fiber location measurement.
 
 ## APO.2021.12.25
