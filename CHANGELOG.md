@@ -1,5 +1,7 @@
 # Changelog
 
+* Updated fiberAssignments for sloanFlatCMM with comments on spliced fibres.
+
 ## APO.2022.04.21
 * Meged sciFiberMeas branch: update boss fiber positions in positionerTable, fibers with LTC metrology and apogee measurements are used to solve for boss fiber microscopy locations, boss fibers without LTC measurements are adjusted by a linear fit based on LTC metrology fiber location measurement.
 
