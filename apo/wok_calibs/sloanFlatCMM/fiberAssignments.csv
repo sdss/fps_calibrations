@@ -1,4 +1,4 @@
-,site,holeID,Sextant,CAN,Device,deviceID,ofaID,Row,Column,apogeeST,bossST,metST,BOSSFiber,APOGEETrib,MTPFiber,LongLinkMTP,APOGEEFiber,Comments,positionerID
+index,site,holeID,Sextant,CAN,Device,deviceID,ofaID,Row,Column,apogeeST,bossST,metST,BOSSFiber,APOGEETrib,MTPFiber,LongLinkMTP,APOGEEFiber,Comments,positionerID
 0,APO,R+3C6,1,1,Positioner,P1346,11228,R+3,C6,10A,10A,10A,39,,,,,,1346
 1,APO,R+3C5,1,1,Positioner,P1357,11246,R+3,C5,10B,10B,10B,40,C11141014,D6,5,148,,1357
 2,APO,R+4C5,1,1,Positioner,P0820,10703,R+4,C5,10C,10C,10C,41,C11141014,E1,5,127,,820
