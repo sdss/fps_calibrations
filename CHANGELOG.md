@@ -2,6 +2,12 @@
 
 * Updated fiberAssignments for sloanFlatCMM with comments on spliced fibres.
 
+## APO.2022.08.02
+* Modify positionerTable and fiberAssignments table to account for robot 463 replaced by 758 and robot 1340 replaced with 56.  Fix error in FPI fiber accounting in wokCoords file R0C1 has an Apogee fiber, R-13C14 does not have an Apogee fiber.
+
+## APO.2022.06.01
+* Pre-shutdown tag.  BOSS fiber locations updated based on dithers.
+
 ## APO.2022.04.21
 * Meged sciFiberMeas branch: update boss fiber positions in positionerTable, fibers with LTC metrology and apogee measurements are used to solve for boss fiber microscopy locations, boss fibers without LTC measurements are adjusted by a linear fit based on LTC metrology fiber location measurement.
 
