@@ -9,7 +9,7 @@
 import os
 import subprocess
 
-__version__ = "APO.2022.06.01"
+__version__ = "2022.08.31"
 
 
 def get_version():
