@@ -2,6 +2,9 @@
 
 * Updated fiberAssignments for sloanFlatCMM with comments on spliced fibres.
 
+## 2022.09.10
+Translate LCO GFAs to be centered on wok=0.
+
 ## APO.2022.08.02
 * Modify positionerTable and fiberAssignments table to account for robot 463 replaced by 758 and robot 1340 replaced with 56.  Fix error in FPI fiber accounting in wokCoords file R0C1 has an Apogee fiber, R-13C14 does not have an Apogee fiber.
 
