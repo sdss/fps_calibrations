@@ -1,15 +1,17 @@
 # Changelog
 
-* Updated fiberAssignments for sloanFlatCMM with comments on spliced fibres.
+## 2022.09.11
+* Fix `sloanFlatCMM` fiberAssignments. After the swap of robots 463->758 and 1340->56, the `positionerID` column had not been updated.
 
 ## 2022.09.10
-Translate LCO GFAs to be centered on wok=0.
+* Translate LCO GFAs to be centered on wok=0.
 
 ## APO.2022.08.02
-* Modify positionerTable and fiberAssignments table to account for robot 463 replaced by 758 and robot 1340 replaced with 56.  Fix error in FPI fiber accounting in wokCoords file R0C1 has an Apogee fiber, R-13C14 does not have an Apogee fiber.
+* Modify positionerTable and fiberAssignments table to account for robot 463 replaced by 758 and robot 1340 replaced with 56. Fix error in FPI fiber accounting in wokCoords file R0C1 has an Apogee fiber, R-13C14 does not have an Apogee fiber.
+* Updated fiberAssignments for sloanFlatCMM with comments on spliced fibres.
 
 ## APO.2022.06.01
-* Pre-shutdown tag.  BOSS fiber locations updated based on dithers.
+* Pre-shutdown tag. BOSS fiber locations updated based on dithers.
 
 ## APO.2022.04.21
 * Meged sciFiberMeas branch: update boss fiber positions in positionerTable, fibers with LTC metrology and apogee measurements are used to solve for boss fiber microscopy locations, boss fibers without LTC measurements are adjusted by a linear fit based on LTC metrology fiber location measurement.
@@ -35,7 +37,7 @@ Translate LCO GFAs to be centered on wok=0.
 
 ## APO.2021.11.28
 * Updated APO positionerTable based on safe move calibration in plug lab
-* Updated APO fiducialCoords based on measured positions of spots on camera, not including outliers in fits.  GFA fiducials added.
+* Updated APO fiducialCoords based on measured positions of spots on camera, not including outliers in fits. GFA fiducials added.
 
 ## APO.2021.11.24
 
