@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023.01.05
+* Updated fiberAssignments and positionerTable after robot swaps in October 2022 and rehoming.
+* Updated LCO gfaCoords (mostly rotation).
+* Update fibreAssignments at LCO with monolithic slit.
+* Update BOSS fibre positions for 16 APO robots replaced in October.
+
 ## 2022.09.11
 * Fix `sloanFlatCMM` fiberAssignments. After the swap of robots 463->758 and 1340->56, the `positionerID` column had not been updated.
 
