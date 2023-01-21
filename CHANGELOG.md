@@ -1,5 +1,9 @@
 # Changelog
 
+## 2023.01.21
+* Swap APOGEE fibres 151-160 with 181-190 at LCO
+* Update LCO GFA coordinates in translation and rotation after FPS remount (from 2022-10-26 but never properly committed).
+
 ## 2023.01.05
 * Updated fiberAssignments and positionerTable after robot swaps in October 2022 and rehoming.
 * Updated LCO gfaCoords (mostly rotation).
