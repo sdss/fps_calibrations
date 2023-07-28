@@ -1,5 +1,8 @@
 # Changelog
 
+## 2023.07.27
+* Update GFA locations at APO and LCO to minimize guide rms at both sites and zero the cherno offsets at APO.
+
 ## 2023.01.21
 * Swap APOGEE fibres 151-160 with 181-190 at LCO
 * Update LCO GFA coordinates in translation and rotation after FPS remount (from 2022-10-26 but never properly committed).
