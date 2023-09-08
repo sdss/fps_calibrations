@@ -1,5 +1,8 @@
 # Changelog
 
+* update LCO alpha/beta positioner offsets based on historical data
+* update LCO nudge model after baffle reinstall at
+
 ## 2023.07.27
 * Update GFA locations at APO and LCO to minimize guide rms at both sites and zero the cherno offsets at APO.
 
