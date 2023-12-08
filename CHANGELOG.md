@@ -1,5 +1,9 @@
 # Changelog
 
+## 2023.12.08
+* ~ (0.2,0.2) arcsecond shift of GFAs with respect to robots for LCO gfaCoords
+* removed junk column in gfaCoords for APO
+
 ## 2023.09.29
 * update LCO nudge model after baffle reinstall and FVC refocus
 * update APO nudge model after FVC refocus
