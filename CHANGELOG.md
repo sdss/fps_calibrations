@@ -1,5 +1,9 @@
 # Changelog
 
+## 2024.03.27
+* new nudge model at APO (Dec 8 2023)
+* updated GFA locations at APO and LCO
+
 ## 2023.12.08
 * ~ (0.2,0.2) arcsecond shift of GFAs with respect to robots for LCO gfaCoords
 * removed junk column in gfaCoords for APO
