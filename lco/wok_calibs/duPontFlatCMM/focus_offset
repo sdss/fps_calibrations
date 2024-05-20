@@ -1,4 +1,4 @@
 # This value represents the offset, in microns, between the GFA optimal focus and the FPS.
 # FPS_focus = GFA_focus + offset
 
--50.0
+-25.0
