@@ -3,6 +3,7 @@
 ## Next version
 
 * Changed `focus_offset` at LCO to -25 microns (observers have been using this for a long time but the focus script was still showing -50).
+* Fix inconsistency in LCO fibre assignments between `positionerID` and `deviceID`.
 
 
 ## 2024.04.01
