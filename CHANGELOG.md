@@ -1,9 +1,10 @@
 # Changelog
 
-## Next version
+## 2024.10.16
 
 * Changed `focus_offset` at LCO to -25 microns (observers have been using this for a long time but the focus script was still showing -50).
 * Fix inconsistency in LCO fibre assignments between `positionerID` and `deviceID`.
+* Update calibrations after APO 2024 shutdown and LCO remounting.
 
 
 ## 2024.04.01
