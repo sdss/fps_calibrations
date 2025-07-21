@@ -12,6 +12,7 @@ import pathlib
 from typing import Literal
 
 import polars
+from rich import print as pprint
 
 FIBER_ASSIGNMENTS_SCHEMA = {
     "index": polars.Int16(),
@@ -104,6 +105,9 @@ def update_fiber_assignments(
     f_ass = f_ass.with_columns(deviceID_col, ofaID_col, positionerID_col)
     f_ass.write_csv(path)
 
+    pprint("[yellow]New fiberAssignment row:")
+    pprint(f_ass.to_dicts()[row_index])
+
 
 def update_positioner_table(
     path: pathlib.Path | str,
@@ -140,6 +144,9 @@ def update_positioner_table(
         df = df.drop("id").sort("positionerID").with_row_index("id")
     else:
         df.write_csv(path)
+
+    pprint("[yellow]New positionerTable row:")
+    pprint(df.to_dicts()[row_index])
 
 
 def sort_positioner_table(path: pathlib.Path | str) -> None:
@@ -186,6 +193,8 @@ def replace_robot(
         new_positioner_id,
         new_ofa_id=new_ofa_id,
     )
+
+    print()
 
     positioner_table_path = (
         cwd / f"../{observatory.lower()}/wok_calibs" / wok_model / "positionerTable.csv"
