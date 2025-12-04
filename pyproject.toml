@@ -1,0 +1,16 @@
+[project]
+name = "fps-calibrations"
+version = "2025.02.24"
+description = "AFPS calibration files"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.31.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipython>=9.4.0",
+    "ruff>=0.12.4",
+]
